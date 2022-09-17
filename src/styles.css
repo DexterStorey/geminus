@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .app {
@@ -11,10 +11,10 @@ body {
   right: 0;
   display: flex;
   align-items: center;
-
+  color: white;
   padding-top: 12px;
 
-  background-color: antiquewhite;
+  background-color: black;
   flex-direction: column;
 }
 
@@ -62,4 +62,10 @@ a {
   height: 125px;
   border: none;
   border-radius: 4px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
 }
