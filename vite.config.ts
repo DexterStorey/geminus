@@ -31,7 +31,6 @@ export default defineConfig({
       ],
       input: {
         main: resolve(root, "index.html"),
-        about: resolve(root, "about", "index.html"),
         iframe: resolve(root, "iframe", "index.html"),
       },
     },
